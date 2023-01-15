@@ -29,7 +29,7 @@ function renderLicenseBadge(license) {
   } else if (license === 'The Unlicense') {
     badge = '[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)'
   } else {
-    badge = " "
+    badges = " "
   }
   return badges;
 }
@@ -45,7 +45,52 @@ function renderLicenseSection(license) {}
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-  
+  # <Your-Project-Title>
+
+## Description
+
+${data.Description}
+
+## Table of Contents (Optional)
+
+If your README is long, add a table of contents to make it easy for users to find what they need.
+
+- [Installation](#installation)
+- [Usage](#Usage)
+- [License](#License)
+- [Contributing](#Contributing)
+- [Tests](#Tests)
+- [Questions](#Questions)
+
+## Installation
+The following will need to be installed to run the application ${data.Installation}
+
+## Usage
+
+To use this application you will need to, ${data.Usage}.
+
+
+## License
+
+This product is licensed by ${data.License}.
+
+
+## Badges
+
+${data.Badges}
+
+
+## How to Contribute
+
+If you would like to contribute then please follow these instructions ${data.Contributing}.
+
+## Tests
+
+The functionality of the application was tested with ${data.Tests}
+
+## Questions
+
+If you have any questions then please contact me at ${data.Questions}
 `;
 }
 

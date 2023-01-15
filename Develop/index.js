@@ -17,12 +17,11 @@ const questions = [
         message: 'Give a brief description of what your project is',
         validate: (value) => {if (value) {return true} else {return 'Please enter a brief description of your application.'}}
     },
-    // {
-    //     type:'input',
-    //     name: 'Table of Contents',
-    //     message: 'Table of Contents',
-    //     validate: (value) => {if (value) {return true} else {return 'Please enter a Project Title.'}}
-    // },
+    {
+        type:'input',
+        name: 'Table of Contents',
+        message: 'Table of Contents',
+    },
     {
         type:'input',
         name: 'Installation',
@@ -58,7 +57,7 @@ const questions = [
     {
         type:'input',
         name: 'Contributing',
-        message: 'Who contributed to help create the application?',
+        message: 'If you would like people to contribute to this application then please describe how the user can do so.',
         validate: (value) => {if (value) {return true} else {return 'Please enter some kind of information.'}}
     },
     {
