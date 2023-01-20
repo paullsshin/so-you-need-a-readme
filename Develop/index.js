@@ -9,13 +9,11 @@ const questions = [
         type:'input',
         name: 'Title',
         message: 'What would you like to name your project?',
-        validate: (value) => {if (value) {return true} else {return 'Please enter a Project Title.'}}
     },
     {
         type:'input',
         name: 'Description',
         message: 'Give a brief description of what your project is',
-        validate: (value) => {if (value) {return true} else {return 'Please enter a brief description of your application.'}}
     },
     {
         type:'input',
@@ -26,13 +24,11 @@ const questions = [
         type:'input',
         name: 'Installation',
         message: 'What does the user need to install for this application to function?',
-        validate: (value) => {if (value) {return true} else {return 'Please provide a description of what is needed to install the application.'}}
     },
     {
         type:'input',
         name: 'Usage',
         message: 'How can the user use your application?',
-        validate: (value) => {if (value) {return true} else {return 'Please provide a description of how the user can use your application.'}}
     },
     {
         type:'list',
@@ -52,34 +48,33 @@ const questions = [
             'GNU Lesser General Public License v2.1',
             'Mozilla Public License 2.0',
             'The Unlicense'],
-            validate: (value) => {if (value) {return true} else {return 'Please select an option.'}}
     },
     {
         type:'input',
         name: 'Contributing',
         message: 'If you would like people to contribute to this application then please describe how the user can do so.',
-        validate: (value) => {if (value) {return true} else {return 'Please enter some kind of information.'}}
     },
     {
         type:'input',
         name: 'Tests',
         message: 'What kind of testing was done to test the functionality of the application?',
-        validate: (value) => {if (value) {return true} else {return 'Please enter something that the user can work with.'}}
     },
     {
         type:'input',
-        name: 'Questions',
-        message: 'Provide your contact information so the user can contact you if they have any questions.',
-        validate: (value) => {if (value) {return true} else {return "Please enter your contact information. I promise it's safe with me."}}
+        name: 'Github',
+        message: 'Provide your Github so users can contact you if needed.',
+    },
+    {
+        type:'input',
+        name: 'Email',
+        message: 'Please provide your email as a second method of contact.',
     },
 ];
 
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile(fileName, data, function(err) {
-        console.log(fileName)
-        console.log(data)
+    fs.writeFile(fileName, data, (err) => {
         if (err) {
             return console.log(err)
         } else {
@@ -92,8 +87,8 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions)
     .then(function(data) {
-        writeToFile("README.md", generateMarkdown(data));
         console.log(data);
+        writeToFile("README.md", generateMarkdown(data));
     })
 }
 
