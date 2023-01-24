@@ -1,10 +1,10 @@
-# ___So You Needed a README?___ 📅
+# ___So You Needed a README?___ 👓
 
-[Working link](https://paullsshin.github.io/got-plans/)
+[Working link](https://paullsshin.github.io/so-you-need-a-readme)
 
 ## __Description__ 📚
 
-_Got Plans_ is an application designed for users who need to get a little more organized in their lives on a daily basis.
+_So You Need a README?_ is an application designed for users who need an easier way to create a README without all the nonsense typing.
 
 <hr>
 
@@ -19,20 +19,17 @@ _Got Plans_ is an application designed for users who need to get a little more o
 <hr>
 
 ## __Installation__ ⚙️
-Visit my [repository](https://github.com/paullsshin/got-plans) to reference any materials and the process in which the page was developed.
+Visit my [repository](https://github.com/paullsshin/so-you-need-a-readme) to reference any materials and the process in which the page was developed.
 <hr>
 
 ## __Usage__ 💻
 
-* It will allow the user to type in anything that they need to do throughout the day.
-* The time goes from 0900-1700 hours. Once the time has passed, the time slots will turn gray.
-* If the time is current, the time block will be displayed as red.
-* If the time block hasn't been reached yet, then it will be displayed as green.
-* The user can type in anything they want and then click on the save button to keep their plans saved into local storage so that way if they close their page it will still be there!
+* The user will need to access the file directly and open their terminal
+* Once the terminal has been opened, the user will need to install the necessary items to be able to run the application.
+* The user will need to type "npm init -y" and as well as "npm i inquirer@8.2.4" to be able to use the application properly
+* Once those packages have been installed, the user can then type "node index.js" to run the application.
+* From there, the user will answer all of the prompts and once all of the questions have been answered then a README will be generated for them.
 
-<p align="center">
-<img src ="./Assets/img/Got Plans_.gif">
-</p>
 <hr>
 
 ## __License__ 💳
@@ -54,9 +51,8 @@ All testing was done by myself.
 <hr>
 
 ## __Technology__ 💡
-* HTML
-* Bootstrap
-* CSS
+* Node
+* Inquirer
 * Javascript
 * Hopes and Dreams
 

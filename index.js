@@ -66,6 +66,11 @@ const questions = [
     },
     {
         type:'input',
+        name: 'Technology',
+        message: 'What technology was used to create this application?',
+    },
+    {
+        type:'input',
         name: 'Github',
         message: 'Provide your Github so users can contact you if needed.',
     },
