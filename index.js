@@ -27,6 +27,11 @@ const questions = [
     },
     {
         type:'input',
+        name: 'Repo',
+        message: 'What is the name of your repository?',
+    },
+    {
+        type:'input',
         name: 'Usage',
         message: 'How can the user use your application?',
     },
