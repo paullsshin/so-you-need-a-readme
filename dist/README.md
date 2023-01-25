@@ -16,11 +16,11 @@ this application makes it easier for the user by creating a readme for them
 - [Questions](#Questions)
 
 ## __Installation__
-The following will need to be installed to run the application the user needs to install "npm init -y" and "npm i inquirer@8.2.4" in the terminal. Also, feel free to visit my [repository](http://github.com/paullsshin/so-you-need-a-readme)
+The following will need to be installed to run the application The following will need to be installed to run the application the user needs to install "npm init -y" and "npm i inquirer@8.2.4" in the terminal. Also, feel free to visit my [repository](http://github.com/paullsshin/so-you-need-a-readme)
 
 ## __Usage__
 
-To use this application you will need to, the user can use this application by answering all of the prompts.
+To use this application you will need to, To use this application you will need to, the user can use this application by answering all of the prompts..
 
 
 ## __License__
@@ -36,11 +36,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## __How to Contribute__
 
-If you would like to contribute then please follow these instructions if anyone would like to contribute they can access my repository and they can pull the code and add code they would like to put in and make a request to merge it.
+If you would like to contribute then please follow these instructions If you would like to contribute then please follow these instructions if anyone would like to contribute they can access my repository and they can pull the code and add code they would like to put in and make a request to merge it..
 
 ## __Testing__
 
-The functionality of the application was tested with testing was done by repeating this process multiple times
+The functionality of the application was tested with The functionality of the application was tested with testing was done by repeating this process multiple times
 
 ## __Technology__
 

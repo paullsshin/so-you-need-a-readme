@@ -74,6 +74,8 @@ The functionality of the application was tested with ${data.Tests}
 
 ## __Technology__
 
+${data.Technology}
+
 ## __Questions__
 
 If you have any questions then please contact me at 

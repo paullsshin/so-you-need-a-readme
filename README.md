@@ -30,6 +30,14 @@ Visit my [repository](https://github.com/paullsshin/so-you-need-a-readme) to ref
 * Once those packages have been installed, the user can then type "node index.js" to run the application.
 * From there, the user will answer all of the prompts and once all of the questions have been answered then a README will be generated for them.
 
+Below are the images of the generated README and as well as some of the prompts that were answered in the terminal
+
+![screenshot1](./img/Screenshot%202023-01-24%2016.07.24.png)
+![screenshot1](./img/Screenshot%202023-01-24%2016.07.43.png)
+![screenshot1](./img/Screenshot%202023-01-24%2016.07.53.png)
+![screenshot1](./img/Screenshot%202023-01-24%2016.16.17.png)
+
+
 <hr>
 
 ## __License__ 💳
